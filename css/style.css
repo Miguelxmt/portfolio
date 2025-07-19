@@ -4,10 +4,6 @@
   box-sizing: 0;
 }
 
-html {
-  height: 100vh;
-
-}
 
 body {
   width: 100vw;
@@ -58,7 +54,7 @@ header a {
   background-size: cover;
   background-position: center;
   transform: translateY(0);
-  transition: transform 0.000001s;
+  transition: transform 0.00001s;
 }
 
 .content {
@@ -93,6 +89,7 @@ header a {
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
   overflow: hidden;
   padding: 20px;
@@ -170,7 +167,7 @@ header a {
 }
 .metadeDiv{
   height: 70vh;
-  width: 40vw;
+  width: 35vw;
   display: flex;
   justify-content: center;
   align-items: center;
